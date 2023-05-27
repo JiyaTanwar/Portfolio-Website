@@ -1,0 +1,404 @@
+body {
+    background-color: rgb(15, 15, 15);
+  }
+.navbar{
+position: fixed;
+width: 100%;
+}
+  .navbar-brand {
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: 600;
+  }
+
+  .nav-item {
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: cursive;
+  }
+
+  span {
+    color: red;
+  }
+
+  .d-flex {
+    font-size: 20px;
+    font-family: cursive;
+  }
+
+  .container {
+    margin: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 100%;
+    height: 100vh;
+
+  }
+
+  h1 {
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bolder;
+  }
+
+  h4 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  }
+
+  h3 {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: white;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  }
+
+  #mail {
+    color: black;
+    border: 2px solid red;
+    width: 50%;
+    height: 50px;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  #sub {
+    box-sizing: border-box;
+    background-color: darkred;
+    color: white;
+    width: 20%;
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  #home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+  }
+
+  .btn {
+    background-color:darkred ;
+      color: white;
+      text-decoration: none;
+      border: 2px solid transparent;
+      font-weight: bold;
+      padding: 13px 30px;
+      border-radius: 30px;
+      transition: .4s;
+      font-family: cursive;
+  }
+  .btn:hover{
+    color: white;
+    background-color: transparent;
+      border: 2px solid darkred;
+      cursor: pointer;
+  }
+
+  .btn1 {
+    background-color:darkred ;
+      color: white;
+      text-decoration: none;
+      border: 2px solid transparent;
+      font-weight: bold;
+      padding: 13px 30px;
+      border-radius: 30px;
+      transition: .4s;
+      font-family: cursive;
+  }
+  .btn1:hover{
+    color: white;
+    background-color: transparent;
+      border: 2px solid darkred;
+      cursor: pointer;
+  }
+  .home-sci a box-icon {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(45deg, #f06, #3cf);
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .home-img {
+    margin-top: 80px;
+    margin-right: 50px;
+    width: 520px;
+    height: 350px;
+    background: rgb(15, 15, 15);
+  }
+
+  .home-img .glowing-circle {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-img .glowing-circle::after {
+    content: "";
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    background: rgb(15, 15, 15);
+    border-radius: 50%;
+  }
+
+  .glowing-circle .image {
+    position: relative;
+    width: 330px;
+    height: 330px;
+
+    border-radius: 50%;
+    z-index: 1;
+
+  }
+
+  .image img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 350px;
+    max-height: 450px;
+    height: 360px;
+    object-fit: cover;
+    align-items: center;
+    background: red;
+  }
+  #about{
+    width:100%;
+    padding: 100px 0px;
+    background-color: rgb(15, 15, 15);
+  }
+  .about img{
+    height: auto;
+    width:430px;
+
+  }
+  .about-text{
+    width: 550px;
+  }
+  .main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .about-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+     margin-bottom: 20px;
+     }
+     .about-text h5{
+      color: white;
+      letter-spacing: 2px;
+      font-size: 25px;
+      text-transform: capitalize;
+     }
+     .about-text p{
+      color: #fcfc;
+      letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    
+    }
+    button{
+      background-color:darkred ;
+      color: white;
+      text-decoration: none;
+      border: 2px solid transparent;
+      font-weight: bold;
+      padding: 13px 30px;
+      border-radius: 30px;
+      transition: .4s;
+    }
+    button:hover{
+      background-color: transparent;
+      border: 2px solid darkred;
+      cursor: pointer;
+    }
+    #services{
+      background: rgb(15, 15, 15);
+      width:100%;
+      padding: 100px 0px;
+    }
+    .title h2{
+      color: white;
+      font-size: 75px;
+      width:1130px;
+      margin: 30px auto;
+      text-align: center;
+    }
+    box{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 400px;
+    }
+    .sk{
+      margin-top: 50px;
+      text-align: center;
+      text-decoration: none;
+      font-weight: 500;
+
+    }
+    table{
+      width:100%;
+      height: 100vh;
+     display:flex;
+     margin-top: 40px;
+    }
+    .td1{
+    border-collapse: collapse;
+      border: 2px solid transparent;
+      box-sizing: border-box;
+      margin-left: 80px;
+      margin-right: 80px;
+    border-radius: 50px;
+    }
+    .sr{
+      margin-top: 30px;
+      text-align: center;
+      text-decoration: none;
+      font-weight: 500;
+    }
+   .th1{
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    font-size: 30px;
+    border: 0.5px solid transparent;
+    border-radius: 20px;
+   }
+   .td2{
+    text-align: center;
+    color: #fcfc;
+    letter-spacing: 2px;
+  
+   }
+   .btn2{
+    margin-left: 45%;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    background-color:darkred ;
+      color: white;
+      text-decoration: none;
+      border: 2px solid transparent;
+      font-weight: bold;
+      padding: 13px 30px;
+      border-radius: 30px;
+      transition: .4s;
+      font-family: cursive;
+   }
+   .btn2:hover{
+    color: white;
+    background-color: transparent;
+      border: 2px solid darkred;
+      cursor: pointer;
+   }
+   .con{
+    margin-top: 60px;
+   }
+   .cv{
+    margin-top: 50px;
+   }
+   .footer-content{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.socials{
+    width: 70%;
+    height: 30px;
+  border: 2px solid white;
+  text-align: left;
+  letter-spacing: 30px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  color: rgb(255, 255, 255);
+}
+
+.footer-bottom{
+
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.cr{
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
+}
+.socials-li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    color:#fff;
+    padding-right:250px;
+    padding-left: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+#add{
+  height: 50px;
+  width: 400px;
+}
+#sub1{
+  height: 50px;
+  width: 400px;
+}
+#msg{
+  height: 50px;
+  width: 400px;
+}
+#submit{
+  margin-left: 0.8%;
+    margin-top: 15px;
+    margin-bottom: 60px;
+    background-color:darkred ;
+      color: white;
+      text-decoration: none;
+      border: 2px solid transparent;
+      font-weight: bold;
+      padding: 13px 30px;
+      border-radius: 30px;
+      transition: .4s;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
+   #submit:hover{
+    color: white;
+    background-color: transparent;
+      border: 2px solid darkred;
+      cursor: pointer;
+   }
+   .progress{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 30%;
+   }
+  
